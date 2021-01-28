@@ -1,2 +1,2 @@
 # Forms-HTML
-A unique html form to create a person's details
+An html form for creating a person's details
