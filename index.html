@@ -1,113 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Forms</title>
+      <style>
+
+          h1 
+          {color:blue;
+          font-family:verdana;
+          font-size:300%;
+          }
+
+          p { color:red;
+              font-family:courier;
+              font-size:160%;}
+
+              a:link {
+                  color:blue;
+                  background-color:transparent;
+                  text-decoration: none;
+              }
+
+              a:visited {
+                color:tomato;
+                background-color:transparent;
+                text-decoration:teal;
+
+              }
+              a:active {
+                  color:yellow;
+                  background-color:whitesmoke;
+                  text-decoration:violet;
+              }
+      </style>
     </head>
     <body>
-        <form>
-            <div>
-                <label for="fname">FirstName</label>
-                <input type="text" id="fname" required>
-                <label for="fname">LastName</label>
-                <input type="text" id="lname" required>
-            </div><br>
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph</p>
 
-            <div>
-                <label for="address">Address</label>
-                <input type="address" id="address">
-            </div><br>
-            <div>
-                <label for="zipCode">Zip Code</label>
-                <input type="zipCode" id="zipCode">
-            </div><br>
+        <a href="url">This is a link text</a>
 
-            <div>
-                <label for="country">Country</label>
-                <select value=" " id="country">
-                    <option value=" "></option>
-                    <option value="australia">Australia</option>
-                    <option value="brazil">Brazil</option>
-                    <option value="cameroon">Cameroon</option>
-                    <option value="drc">DRC</option>
-                    <option value="eritrea">Eritrea</option>
-                    <option value="france">France</option>
-                    <option value="uganda">Uganda</option>
+        <h2>Link colors</h2>
+        <p>Learning css</p>
 
-
-                </select>
-            </div>
-
-
-            <div>Gender</div>
-
-            <div>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="male">
-                
-            </div>
-            <div>
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="female">
-            </div><br>
-
-            <div>
-                <label for="date">BirthDate</label>
-                <input type="date" id="date" required>
-            </div><br>
-            <div>
-                <label for="eyeColor">EyeColor</label>
-                <select value="eyeColor" id="eyeColor">
-                    <option value=" " id=" "></option>
-                    <option value="Black">Black</option>
-                    <option value="Brown">Brown</option>
-                    <option value="blue">Blue</option>
-                </select>
-            </div><br>
-
-            <div>Favorite food</div>
-            <div>
-                <label for="banana">Banana</label>
-                <input type="checkbox" name="banana" id="banana">
-            </div>
-            <div>
-            <label for="apple">Apple</label>
-            <input type="checkbox" name="apple" id="apple">
-            </div><br>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" optional>
-            </div><br>
-
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" optional>
-            
-            </div><br>
-
-            <div>
-                <label for="verifyPassword">Verify Password</label>
-                <input type="verifypassword" id="verifyPassword">
-            </div><br>
-
-            <div>
-                <label for="phone">Phone Number</label>
-                <input type="phone" id="phone">
-            </div>
-            <div>
-                <label for="cell">Cell</label>
-                <input type="radio" name="phone" id="cell">
-                <label for="home">Home</label>
-                <input type="radio" name="phone" id="home">
-                <label for="work">Work</label>
-                <input type="radio" name="phone" id="work">Work
-            </div><br>
-
-            <div>
-                <button type="reset">Reset</button>
-                <button type="submit">Submit</button>
-                <button type="cancel">Cancel</button>
-            </div>
-        </form>
     </body>
 </html>
